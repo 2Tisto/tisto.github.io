@@ -1,0 +1,45 @@
+body{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+    background-color: bisque;
+    width: 400px ;
+    padding: 10px;
+    border-radius: 30px;
+    /*text-align: center;*/
+}
+#valid{
+    background-color: blue;
+    color: aliceblue;
+    margin-top: 10px;
+}
+#pn1{
+    font-weight: bold;
+    text-align: center;
+}
+input{
+    border-radius: 10px 10px 10px 10px;
+    color: rgba(27, 123, 161, 0.632);
+}
+a{
+    color: blue;
+}
+.fGroup{
+    display: flex;
+    flex-direction: row;
+    padding-right: 0;
+}
+#pn2{
+    text-align: center;
+}
+.pre{
+    padding-left: 65px;
+    margin-right: 0;
+}
+.fGroup2{
+    width: 395px;
+}

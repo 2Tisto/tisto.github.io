@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Essaie sur les formulaires</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       
+        <form method="post" action="bienvenue.html">
+            <p id="pn1">INSCRIPTION</p><hr>
+            <div class="fGroup">
+                <div>
+                    <label for="nom" class="nom">Nom</label><br>
+                    <input id="nom" type="text" placeholder="Entrez votre nom..">
+                </div>
+                <div class="pre">
+                    <label for="prenom">Prénom</label><br>
+                    <input id="prenom" type="text" placeholder="Entrez votre prénom...">
+                </div>
+            </div>
+            <label for="mail">Adresse Mail</label><br>
+            <input class="fGroup2" id="mail" type="email" placeholder="Entrez votre mail..."><br>
+            <label for="motDePasse">Mot de passe</label><br>
+            <input class="fGroup2" id="motDePasse" type="password" placeholder="Entrez votre mot de passe..."><br>
+            <input class="fGroup2" id="valid" type="submit" value="S'inscrire"><br>
+            <p id="pn2">Vous avez déjà un compte <a href="" oneclick="showLogPage()">Se connecter</a></p>
+             
+        </form>
+
+        <script src="javascript.js" ></script>
+    </body>
+</html>
